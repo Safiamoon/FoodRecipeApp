@@ -30,32 +30,29 @@ h1 {
 }
 
 .search-form {
-  width: 60rem;
-  height: 10rem;
+  width: 70rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #d3d3d3;
   border-radius: 0.5rem;
   margin-bottom: 5rem;
-  box-shadow: 1rem 2rem 5rem #aaa;
   position: relative;
 }
 
 .alert {
   position: absolute;
-  top: -3rem;
+  top: 25rem;
   left: 0;
-  background-color: rgb(233, 72, 72);
+  background-color: white;
   width: calc(100% - 0.4rem);
-  border-radius: 0.5rem;
-  padding: 0.2rem;
+  border-radius: 0rem;
+  padding: 1rem;
 }
 
 .alert h3 {
-  font-size: 1.8rem;
-  color: #fff;
-  font-weight: 400;
+  font-size: 3rem;
+  color: red;
+  font-weight: 500;
   text-transform: uppercase;
   text-align: center;
 }
@@ -78,7 +75,7 @@ h1 {
 .search-form input[type="submit"] {
   width: 25%;
   text-transform: uppercase;
-  background-color: #40b48e;
+  background-color: #31312c;
   color: #fff;
 }
 
@@ -93,52 +90,57 @@ h1 {
 
 .recipe {
   width: 30rem;
-  margin: 3rem;
+  margin: 0.5rem;
   display: flex;
   flex-direction: column;
-  background-color: #d3d3d3;
-  padding: 2rem;
+  padding: 11rem;
   position: relative;
-  border-radius: 0.5rem;
-  box-shadow: 2rem 3rem 5rem #aaa;
+  border: 1px solid rgb(231, 224, 224);
+  border-radius: 1rem;
 }
 
-.recipe h2 {
-  background-color: rgba(161, 161, 161, 0.7);
+.recipe h3 {
   border-radius: 0.5rem;
-  padding: 0.3rem 0.5rem;
+  padding: 1rem 1rem;
   position: absolute;
-  top: 2.5rem;
-  left: 2.5rem;
+  top: 40rem;
+  left: 3.5rem;
   right: 2.5rem;
   font-size: 2.5rem;
-  font-weight: 400;
-  text-shadow: 0 0.5rem 0.5rem #555;
-  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  color:black;
 }
 
 .recipe img {
-  border-radius: 0.5rem;
+  border-radius: 20rem;
   object-fit: cover;
 }
 
 .recipe a {
-  font-size: 1.8rem;
-  color: #40b48e;
+  padding: 7.5rem 0.5rem;
+  font-size: 2rem;
+  color:tomato;
 }
 
 .recipe button {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
-  background-color: #40b48e;
+  background-color:tomato;
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
+  position: absolute;
+  margin-top: 37rem;
+  padding: 0rem 1rem;
+  right: 18rem;
 }
 
 .ingredient-list {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  top: 10rem;
+  position: relative;
   background-color: #f0f0f0;
   border-radius: 0.5rem;
   padding: 0.5rem;
@@ -154,6 +156,6 @@ h1 {
 }
 
 .ingredient-weight {
-  color: #40b48e;
+  color: tomato;
   font-size: 1.3rem;
 }
