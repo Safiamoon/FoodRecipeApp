@@ -1,6 +1,6 @@
-# Foos recipe app using ReactJs & React Hooks
+# Food recipe app using ReactJs & React Hooks
 
-This app is developed for learning purpose
+This app is developed for learning purpose.
 
 ## How to run
 
