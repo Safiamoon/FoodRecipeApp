@@ -3,7 +3,7 @@ import RecipeDetails from "./RecipeDetails";
 
 const Recipe = ({recipe}) => {
     const [show, setShow] = useState(false);
-    const{label, image, url, ingredients} = recipe.recipe;
+    const{label, image, ingredients} = recipe.recipe;
 
     return (
         <div className="recipe">
